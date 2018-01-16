@@ -116,6 +116,13 @@ class Quiz extends Component {
 
       <ToggleDisplay show={this.state.leader}>
       <h1> You are the leader </h1>
+      <div>
+        <button>
+        </button>
+        <h1>7</h1>
+        <button>
+        </button>
+      </div>
       </ToggleDisplay>
       <StartPage disabled={this.state.disabledButton} show={this.state.show} hideFunction={ () => this.hideButtonShowQuiz() }/>
 
